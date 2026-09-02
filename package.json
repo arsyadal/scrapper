@@ -1,0 +1,14 @@
+{
+  "name": "maps-umkm-scraper",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Scraper Google Maps: cari usaha/UMKM dalam radius, ambil nama, telp/WA, cek website.",
+  "scripts": {
+    "install-browsers": "playwright install chromium",
+    "scrape": "node scraper.js"
+  },
+  "dependencies": {
+    "playwright": "^1.48.0"
+  }
+}
